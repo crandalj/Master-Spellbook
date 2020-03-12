@@ -1,0 +1,1 @@
+pyuic4 MasterSpellbook.ui > MasterSpellbookUI.py

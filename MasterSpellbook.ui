@@ -1,0 +1,5874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>794</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>119</y>
+      <width>801</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::West</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Bard</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_9">
+       <attribute name="title">
+        <string>Cantrip</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>1</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Blade Ward</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dancing Lights</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Friends</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Light</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mage Hand</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mending</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Message</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Minor Illusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prestidigitation</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Strike</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Vicious Mockery</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_10">
+       <attribute name="title">
+        <string>Lvl 1</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animal Friendship</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Charm Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Comprehend Languages</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cure Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Disguise Self</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dissonant Whispers</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Faerie Fire</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feather Fall</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Healing Word</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Heroism</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Identify</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Illusory Script</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Longstrider</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Silent Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sleep</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speak with Animals</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tasha's Hideous Laughter</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Thunderwave</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Unseen Servant</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_11">
+       <attribute name="title">
+        <string>Lvl 2</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animal Messenger</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blindness/Deafness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Calm Emotions</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cloud of Daggers</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Crown of Madness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Thoughts</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Enhance Ability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Enthrall</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Heat Metal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Knock</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lesser Restoration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Animals or Plants</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Object</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Mouth</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Phantasmal Force</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>See Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shatter</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Silence</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Suggestion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Zone of Truth</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_12">
+       <attribute name="title">
+        <string>Lvl 3</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Bestow Curse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Clairvoyance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fear</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feign Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Glyph of Warding</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hypnotic Pattern</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Leomud's Tiny Hut</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Major Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nondetection</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plant Growth</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sending</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speak with Dead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speak with Plants</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stinking Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tongues</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_13">
+       <attribute name="title">
+        <string>Lvl 4</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Compulsion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Confusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dimension Door</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Freedom of Movement</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Greater Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hallucinatory Terrain</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Creature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Polymorph</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_14">
+       <attribute name="title">
+        <string>Lvl 5</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animate Objects</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Awaken</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dominate Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dream</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Geas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Greater Restoration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Monster</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Legend Lore</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Cure Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mislead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Modify Memory</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Planar Binding</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Raise Dead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Scrying</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Seeming</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Teleportation Circle</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_15">
+       <attribute name="title">
+        <string>Lvl 6</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_7">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Eyebite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Find the Path</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Guards and Wards</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Suggestion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Otto's Irresistible Dance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Programmed Illusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Seeing</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_16">
+       <attribute name="title">
+        <string>Lvl 7</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Etherealness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Forcecage</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mirage Arcane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mordenkainen's Magnificent Mansion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mordenkainen's Sword</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Project Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Regenerate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Resurrection</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Symbol</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Teleport</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_17">
+       <attribute name="title">
+        <string>Lvl 8</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_9">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Dominate Monster</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feeblemind</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Glibness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mind Blank</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Stun</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_18">
+       <attribute name="title">
+        <string>Lvl 9</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Foresight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Heal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Kill</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Polymorph</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>601</width>
+        <height>581</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Cleric</string>
+     </attribute>
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>601</width>
+        <height>581</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_19">
+       <attribute name="title">
+        <string>Cantrip</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_11">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>1</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Guidance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Light</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mending</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Resistance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sacred Flame</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spare the Dying</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Thaumaturgy</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_20">
+       <attribute name="title">
+        <string>Lvl 1</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_12">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Bane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bless</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Command</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Create or Destroy Water</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cure Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Evil and Good</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Poison and Disease</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Guiding Bolt</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Healing Word</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Inflict Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Evil and Good</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Purify Food and Drink</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sanctuary</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shield of Faith</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_21">
+       <attribute name="title">
+        <string>Lvl 2</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_13">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Aid</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Augury</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blindness/Deafness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Calm Emotions</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Continual Flame</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Enhance Ability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Find Traps</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gentle Repose</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lesser Restoration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Object</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prayer of Healing</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Poison</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Silence</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spiritual Weapon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Warding Bond</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Zone of Truth</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_22">
+       <attribute name="title">
+        <string>Lvl 3</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_14">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animate Dead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Beacon of Hope</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bestow Curse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Clairvoyance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Create Food and Water</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Daylight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feign Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Glyph of Warding</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Circle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Healing Word</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Meld into Stone</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Energy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Remove Curse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Revivify</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sending</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speak with Dead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spirit Guardians</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tongues</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Water Walk</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_23">
+       <attribute name="title">
+        <string>Lvl 4</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_15">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Banishment</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Control Water</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Death Ward</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Divination</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Freedom of Movement</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Guardian of Faith</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Creature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stone Shape</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_24">
+       <attribute name="title">
+        <string>Lvl 5</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_16">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Commune</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Contagion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Evil and Good</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Flame Strike</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Geas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Greater Restoration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hallow</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Insect Plague</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Legend Lore</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Cure Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Planar Binding</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Raise Dead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Scrying</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_25">
+       <attribute name="title">
+        <string>Lvl 6</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_17">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Blade Barrier</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Create Undead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Find the Path</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Forbiddance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Harm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Heal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Heroes' Feast</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Planar Ally</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Seeing</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Word of Recall</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_26">
+       <attribute name="title">
+        <string>Lvl 7</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_18">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Conjure Celestial</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Divine Word</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Etherealness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fire Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plane Shift</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Regenerate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Resurrection</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Symbol</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_27">
+       <attribute name="title">
+        <string>Lvl 8</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_19">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Antimagic Field</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Control Weather</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Earthquake</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Holy Aura</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_28">
+       <attribute name="title">
+        <string>Lvl 9</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_20">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Astral Projection</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Heal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Resurrection</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Druid</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_29">
+       <attribute name="title">
+        <string>Cantrip</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_21">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>1</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Druidcraft</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Guidance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mending</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Poison Spray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Produce Flame</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Resistance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shillelagh</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Thorn Whip</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_30">
+       <attribute name="title">
+        <string>Lvl 1</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_22">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animal Friendship</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Charm Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Create or Destroy Water</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cure Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Poison and Disease</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Entangle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Faerie Fire</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fog Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Goodberry</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Healing Word</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Jump</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Longstrider</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Purify Food and Drink</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speak with Animals</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Thunderwave</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_31">
+       <attribute name="title">
+        <string>Lvl 2</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_23">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animal Messenger</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Barkskin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Beast Sense</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Darkvision</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Enhance Ability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Find Traps</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Flame Blade</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Flaming Sphere</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gust of Wind</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Heat Metal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lesser Restoration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Animals and Plants</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Object</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Moonbeam</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pass without Trace</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Poison</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spike Growth</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_32">
+       <attribute name="title">
+        <string>Lvl 3</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_24">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Call Lightning</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Animals</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Daylight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feign Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Meld into Stone</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plant Growth</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Energy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sleet Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speak with Animals</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Water Breathing</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Water Walk</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wind Wall</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_33">
+       <attribute name="title">
+        <string>Lvl 4</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_25">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Blight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Confusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Minor Elementals</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Woodland Beings</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Control Water</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dominate Beast</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Freedom of Movement</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Giant Insect</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Grasping Vine</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hallucinatory Terrain</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ice Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Creature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Polymorph</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stone Shape</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stoneskin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Fire</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_34">
+       <attribute name="title">
+        <string>Lvl 5</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_26">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Antilife Shell</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Awaken</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Commune with Nature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Elemental</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Contagion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Geas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Greater Restoration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Insect Plague</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Cure Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Planar Binding</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Reincarnate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Scrying</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tree Stride</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Stone</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_35">
+       <attribute name="title">
+        <string>Lvl 6</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_27">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Conjure Fey</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Find the Path</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Heal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Heroes' Feast</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Move Earth</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sunbeam</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Transport via Plants</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Thorns</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wind Walk</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_36">
+       <attribute name="title">
+        <string>Lvl 7</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_28">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Fire Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mirage Arcane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plane Shift</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Regenerate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Reverse Gravity</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_37">
+       <attribute name="title">
+        <string>Lvl 8</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_29">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animal Shapes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Antipathy/Sympathy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Control Weather</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Earthquake</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feeblemind</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sunburst</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tsunami</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_38">
+       <attribute name="title">
+        <string>Lvl 9</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_30">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Foresight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shapechange</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Storm of Vengeance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Resurrection</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>601</width>
+        <height>581</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Paladin</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_40">
+       <attribute name="title">
+        <string>Lvl 1</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_32">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Bless</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Command</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Compelled Duel</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cure Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Evil and Good</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Poison and Disease</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Divine Favor</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Heroism</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Evil and Good</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Purify Food and Drink</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Searing Smite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shield of Faith</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Thunderous Smite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wrathful Smite</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_41">
+       <attribute name="title">
+        <string>Lvl 2</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_33">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Aid</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Branding Smite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Find Steed</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lesser Restoration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Object</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Weapon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Poison</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Zone of Truth</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_42">
+       <attribute name="title">
+        <string>Lvl 3</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_34">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Aura of Vitality</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Binding Smite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Create Food and Water</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Crusader's Mantle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Daylight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Elemental Weapon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Circle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Remove Curse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Revivify</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_43">
+       <attribute name="title">
+        <string>Lvl 4</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_35">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Aura of Life</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Aura of Purity</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Banishment</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Death Ward</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Creature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Staggering Smite</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_44">
+       <attribute name="title">
+        <string>Lvl 5</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_36">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Banishing Smite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Circle of Power</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Destructive Smite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Evil and Good</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Geas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Raise Dead</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_4">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>601</width>
+        <height>581</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Ranger</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_50">
+       <attribute name="title">
+        <string>Lvl 1</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_81">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animal Friendship</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cure Wounds</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Poison and Disease</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ensnaring Strike</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fog Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Goodberry</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hail of Thorns</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hunter's Mark</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Jump</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Longstrider</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speak with Animals</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_51">
+       <attribute name="title">
+        <string>Lvl 2</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_43">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animal Messenger</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Barkskin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Beast Sense</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cordon of Arrows</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Darkvision</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Find Traps</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lesser Restoration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Animals or Plants</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Object</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pass without Trace</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Poison</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Silence</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spike Growth</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_52">
+       <attribute name="title">
+        <string>Lvl 3</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_44">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Conjure Animals</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Barrage</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Daylight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lightning Arrow</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nondetection</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plant Growth</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Energy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Speak with Plants</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Water Breathing</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Water Walk</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wind Wall</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_53">
+       <attribute name="title">
+        <string>Lvl 4</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_45">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Conjure Woodland Beings</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Freedom of Movement</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Grasping Vine</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Creature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stoneskin</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_54">
+       <attribute name="title">
+        <string>Lvl 5</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_46">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Commune with Nature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Volley</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Swift Quiver</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tree Stride</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_5">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>601</width>
+        <height>581</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>Sorcerer</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_59">
+       <attribute name="title">
+        <string>Cantrip</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_51">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>1</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Acid Splash</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blade Ward</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chill Touch</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dancing Lights</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fire Bolt</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Friends</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Light</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mage Hand</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mending</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Message</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Minor Illusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Poison Spray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prestidigitation</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ray of Frost</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shocking Grasp</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Strike</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_60">
+       <attribute name="title">
+        <string>Lvl 1</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_52">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Burning Hands</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Charm Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chromatic Orb</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Color Spray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Comprehend Languages</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Disguise Self</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Expeditious Retreat</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>False Life</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feather Fall</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fog Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Jump</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mage Armor</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Missile</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ray of Sickness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shield</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Silent Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sleep</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Thunderwave</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Witch Bolt</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_61">
+       <attribute name="title">
+        <string>Lvl 2</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_53">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Alter Self</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blindness/Deafness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blur</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cloud of Daggers</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Crown of Madness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Darkness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Darkvision</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Thoughts</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Enhance Ability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Enlarge/Reduce</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gust of Wind</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Knock</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Levitate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mirror Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Misty Step</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Phantasmal Force</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Scorching Ray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>See Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shatter</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spider Climb</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Suggestion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Web</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_62">
+       <attribute name="title">
+        <string>Lvl 3</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_54">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Blink</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Clairvoyance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Counterspell</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Daylight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fear</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fireball</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fly</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gaseous Form</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Haste</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hypnotic Pattern</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lightning Bolt</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Major Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Energy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sleet Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Slow</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stinking Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tongues</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Water Breathing</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Water Walk</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_63">
+       <attribute name="title">
+        <string>Lvl 4</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_55">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Banishment</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Confusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dimension Door</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dominate Beast</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Greater Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ice Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Polymorph</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stoneskin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Fire</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_64">
+       <attribute name="title">
+        <string>Lvl 5</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_56">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animate Objects</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cloudkill</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cone of Cold</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Creation</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dominate Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Monster</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Inect Plague</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Seeming</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Telekinesis</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Teleportation Circle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Stone</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_65">
+       <attribute name="title">
+        <string>Lvl 6</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_57">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Arcane Gate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chain Lightning</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Circle of Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Disintegrate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Eyebite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Globe of Invulnerability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Suggestion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Move Earth</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sunbeam</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Seeing</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_66">
+       <attribute name="title">
+        <string>Lvl 7</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_58">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Delayed Blast Fireball</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Etherealness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Finger of Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fire Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plane Shift</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prismatic Spray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Reverse Gravity</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Teleport</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_67">
+       <attribute name="title">
+        <string>Lvl 8</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_59">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Dominate Monster</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Earthquake</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Incendiary Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Stun</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sunburst</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_68">
+       <attribute name="title">
+        <string>Lvl 9</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_60">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Gate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Meteor Swarm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Kill</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Time Stop</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wish</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_6">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>601</width>
+        <height>581</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>Warlock</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_8">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_69">
+       <attribute name="title">
+        <string>Cantrip</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_61">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>1</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Blade Ward</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chill Touch</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Eldritch Blast</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Friends</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mage Hand</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Minor Illusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Poison Spray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prestidigitation</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Strike</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_70">
+       <attribute name="title">
+        <string>Lvl 1</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_62">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Armor of Agathys</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Arms of Hadar</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Charm Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Comprehend Languages</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Expeditious Retreat</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hellish Rebuke</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hex</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Illusory Script</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Evil and Good</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Unseen Servant</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Witch Bolt</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_71">
+       <attribute name="title">
+        <string>Lvl 2</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_63">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cloud of Daggers</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Crown of Madness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Darkness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Enthrall</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mirror Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Misty Step</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ray of Enfeeblement</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shatter</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spider Climb</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Suggestion</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_72">
+       <attribute name="title">
+        <string>Lvl 3</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_64">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Counterspell</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fear</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fly</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gaseous Form</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hunger of Hadar</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hypnotic Pattern</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Circle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Major Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Remove Curse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tongues</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Vampiric Touch</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_73">
+       <attribute name="title">
+        <string>Lvl 4</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_65">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Banishment</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dimension Door</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hallucinatory Terrain</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_74">
+       <attribute name="title">
+        <string>Lvl 5</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_66">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Contact Other Plane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dream</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Monster</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Scrying</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_75">
+       <attribute name="title">
+        <string>Lvl 6</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_67">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Arcane Gate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Circle of Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Fey</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Create Undead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Eyebite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Flesh to Stone</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Suggestion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Seeing</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_76">
+       <attribute name="title">
+        <string>Lvl 7</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_68">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Etherealness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Finger of Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Forcecage</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plane Shift</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_77">
+       <attribute name="title">
+        <string>Lvl 8</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_69">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Demiplane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dominate Monster</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feeblemind</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Glibness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Stun</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_78">
+       <attribute name="title">
+        <string>Lvl 9</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_70">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Astral Projection</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Foresight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Imprisonment</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Kill</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Polymorph</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_7">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>601</width>
+        <height>581</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>Wizard</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_79">
+       <attribute name="title">
+        <string>Cantrip</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_71">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>1</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Acid Splash</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blade Ward</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chill Touch</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dancing Lights</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fire Bolt</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Friends</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Light</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mage Hand</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mending</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Message</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Minor Illusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Poison Spray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prestidigitation</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ray of Frost</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shocking Grasp</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Strike</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_80">
+       <attribute name="title">
+        <string>Lvl 1</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_72">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Alarm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Burning Hands</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Charm Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chromatic Orb</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Color Spray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Comprehend Languages</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Disguise Self</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Expeditious Retreat</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>False Life</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feather Fall</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Find Familiar</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fog Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Grease</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Identify</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Illusory Script</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Jump</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Longstrider</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mage Armor</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Missile</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Evil and Good</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ray of Sickness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shield</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Silent Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sleep</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tasha's Hideous Laughter</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tenser's Floating Disk</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Thunderwave</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Unseen Servant</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Witch Bolt</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_81">
+       <attribute name="title">
+        <string>Lvl 2</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_73">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Alter Self</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Arcane Lock</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blindness/Deafness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blur</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cloud of Daggers</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Continual Flame</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Crown of Madness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Darkness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Darkvision</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Detect Thoughts</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Enlarge/Reduce</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Flaming Sphere</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gentle Repose</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gust of Wind</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Knock</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Levitate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Object</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Mouth</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Weapon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Melf's Acid Arrow</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mirror Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Misty Step</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nystul's Magic Aura</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Phantasmal Force</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ray of Enfeeblement</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rope Trick</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Scorching Ray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>See Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shatter</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spider Climb</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Suggestion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Web</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_82">
+       <attribute name="title">
+        <string>Lvl 3</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_74">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animate Dead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bestow Curse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blink</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Clairvoyance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Counter Spell</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dispel Magic</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fear</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feign Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fireball</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fly</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gaseous Form</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Glyph of Warding</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Haste</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hypnotic Pattern</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Leomund's Tiny Hut</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lightning Bolt</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Circle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Major Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Nondetection</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Phantom Steed</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Protection from Energy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Remove Curse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sending</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sleet Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Slow</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stinking Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tongues</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Vampiric Touch</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Water Breathing</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_83">
+       <attribute name="title">
+        <string>Lvl 4</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_75">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Arcane Eye</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Banishment</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Blight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Confusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Minor Elementals</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Control Water</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dimension Door</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Evard's Black Tentacles</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fabricate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fire Shield</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Greater Invisibility</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hallucinatory Terrain</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ice Storm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Leomund's Secret Chest</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Locate Creature</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mordenkainen's Faithful Hound</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mordenkainen's Private Sanctum</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Otiluke's Resilient Sphere</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Phantasmal Killer</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Polymorph</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stone Shape</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Stoneskin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Fire</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_84">
+       <attribute name="title">
+        <string>Lvl 5</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_76">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Animate Objects</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bigby's Hand</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cloudkill</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cone of Cold</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Conjure Elemental</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Contact Other Plane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Creation</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dominate Person</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dream</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Geas</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hold Monster</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Legend Lore</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mislead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Modify Memory</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Passwall</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Planar Binding</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rary's Telepathic Bond</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Scrying</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Seeming</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Telekinesis</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Teleportation Circle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Force</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Stone</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_85">
+       <attribute name="title">
+        <string>Lvl 6</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_77">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Arcane Gate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chain Lightning</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Circle of Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Contingency</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Create Undead</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Disintegrate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Drawmij's Instant Summons</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Eyebite</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Flesh to Stone</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Glove of Invulnberability</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Guards and Wards</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magic Jar</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mass Suggestion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Move Earth</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Otiluke's Freezing Sphere</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Otto's Irresistible Dance</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Programmed Illusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sunbeam</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Seeing</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wall of Ice</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_86">
+       <attribute name="title">
+        <string>Lvl 7</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_78">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Delayed Blast Fireball</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Etherealness</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Finger of Death</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Forcecage</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mirage Arcane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mordenkainen's Magnificent Mansion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mordenkainen's Sword</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plane Shift</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prismatic Spray</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Project Image</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Reverse Gravity</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sequester</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Simulacrum</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Symbol</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Teleport</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_87">
+       <attribute name="title">
+        <string>Lvl 8</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_79">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Antimagic Field</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Antipathy/Sympathy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Clone</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Control Weather</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Demiplane</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dominate Monster</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Feeblemind</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Incendiary Cloud</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Maze</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Mind Blank</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Stun</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sunburst</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Telepathy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Trap the Soul</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_88">
+       <attribute name="title">
+        <string>Lvl 9</string>
+       </attribute>
+       <widget class="QListWidget" name="listWidget_80">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>141</width>
+          <height>461</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Astral Projection</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Foresight</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gate</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Imprisonment</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Meteor Swarm</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Power Word Kill</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Prismatic Wall</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Shapechange</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Time Stop</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>True Polymorph</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Weird</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wish</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QTextEdit" name="textEdit_8">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>0</y>
+        <width>601</width>
+        <height>581</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_level">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>20</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Character Level</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>361</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>   1           2            3           4            5            6           7           8           9</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_eight">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_one">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_three">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_four">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_two">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_six">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_nine">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Spell Slots</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_five">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_maxspell_seven">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>80</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_two">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_three">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_four">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_one">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_nine">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_six">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_five">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_seven">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_spell_eight">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>60</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>60</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Available Spell Slots</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>80</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Maximum Spell Slots</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_load">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>70</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Load</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_save">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>20</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>0</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Character</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_longrest">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>10</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Long Rest</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
